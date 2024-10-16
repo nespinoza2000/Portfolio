@@ -105,6 +105,17 @@
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
+    .perfil-redondo {
+        width: 150px;
+        /* Ajusta el tamaño según sea necesario */
+        height: 150px;
+        /* Asegúrate de que sea cuadrado para que sea perfectamente redondo */
+        border-radius: 50%;
+        /* Hace la imagen redonda */
+        object-fit: cover;
+        /* Para mantener la proporción dentro del contenedor */
+    }
+
     hr {
         margin: 1rem 0;
         color: inherit;
